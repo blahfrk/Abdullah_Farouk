@@ -55,7 +55,7 @@ function Hero() {
         <h1>
           Abdullah
           <br />
-          Farouk
+          Faro
         </h1>
         <h2>Frontend Developer</h2>
         <span>
