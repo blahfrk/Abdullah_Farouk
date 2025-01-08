@@ -9,7 +9,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import portfolio from "../../assets/portfolio.pdf";
+import myresume from "../../assets/my_resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 // motion
 import { motion } from "framer-motion";
@@ -59,13 +59,16 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://twitter.com/" target="_blank">
-            <img src={facebookIcon} alt="Twitter icon" />
+          <a href="https://www.facebook.com/bLahtot" target="_blank">
+            <img src={facebookIcon} alt="Facebook icon" />
           </a>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/blahfrk" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/abdullah-farouk-618360318"
+            target="_blank"
+          >
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
@@ -73,7 +76,7 @@ function Hero() {
           Developing modern React websites for commercial businesses tailored to
           client satisfaction.
         </p>
-        <a href={portfolio} download>
+        <a href={myresume} download>
           <button className="hover">Resume</button>
         </a>
       </motion.div>
